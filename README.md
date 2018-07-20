@@ -1,12 +1,17 @@
 # pixieboard-setup
+
 Here we'll link to many resources that allow for a fast an effective setup of Pixieboard. All items previously in Treats4geeks.org will be migrated here.
 
-##About Pixieboard and resources
+## About Pixieboard and Resources
+
 Pixieboard is a hardware platform that runs Linux and has amazing wireless features created by [Code & Modules Inc.](https://codeandmodules.com)
 
 A countinuous effor to publish tutorials and how-to guides is available in [Medium Pixieboard](https://medium.com/pixieboard)
 
-##OS Images
+If you just got your pixieboard and don't know where to start, I recommend to follow [this guide](https://medium.com/pixieboard/getting-started-with-pixieboard-7e977ee6d276).
+
+## OS Images
+
 We maintain a set of Arch Linux images that you can download from the links below:
 
 |Version | Description                      |
