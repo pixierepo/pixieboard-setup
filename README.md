@@ -23,4 +23,15 @@ We maintain a set of Arch Linux images that you can download from the links belo
 If you have any questions, please contact @rhimmelbauer for support.
 
 
+## Quick setup:
+
+For a quick automated setup, just follow the steps below (script is very simple so theres no guarantee): 
+Clone this repo and run quick setup script
+```
+sudo pacman -Sy
+sudo pacman -S git
+git clone https://github.com/pixierepo/pixieboard-setup
+cd pixieboard-setup/scripts
+sudo sh quick-conf.sh
+```
 
