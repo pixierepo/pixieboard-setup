@@ -23,5 +23,5 @@ systemctl enable avahi-daemon
 #Fix yaourt libs.
 ln -sf /usr/lib/libalpm.so.11 /usr/lib/libalpm.so.10
 
-#Reboot!
-
+#Reboot now.
+reboot
