@@ -4,7 +4,7 @@
 pacman -Syu --noconfirm
 
 #install
-pacman -S --noconfirm ntp avahi nss-mdns
+pacman -S --noconfirm ntp avahi nss-mdns yaourt
 
 #Config Time and locales
 systemctl enable ntpd
@@ -19,6 +19,9 @@ localectl set-locale LANG=en_US.UTF-8
 #Config avahi
 sed -i '/hosts/c\hosts: files mymachines myhostname mdns_minimal [NOTFOUND=return] resolve [!UNAVAIL=return] dns' /etc/nsswitch.conf
 systemctl enable avahi-daemon
+
+#Fix yaourt libs.
+ln -sf /usr/lib/libalpm.so.11 /usr/lib/libalpm.so.10
 
 #Reboot!
 
