@@ -16,9 +16,9 @@ We maintain a set of Arch Linux images that you can download from the links belo
 
 |Version | Description                      |
 |--------|----------------------------------|
-|[PRO+](http://code-ing.com/pixierepo/release/images/PixieQP4GCoreImage.zip)|QuadPlus Core, 4GB of RAM, LTE 4G |
-|[PRO](http://code-ing.com/pixierepo/release/images/PixieQCoreImage.zip) | Quad Core, 2GB of RAM, LTE 4G |
-|[DUO](http://code-ing.com/pixierepo/release/images/PixieDLCoreImage.zip) | Dual Lite Core, 1GB of RAM, GSM 3G |
+|[PRO+](https://code-ing.com/pixierepo/release/images/latest/PixieQP4GCoreImage.zip)|QuadPlus Core, 4GB of RAM, LTE 4G |
+|[PRO](https://code-ing.com/pixierepo/release/images/latest/PixieQCoreImage.zip) | Quad Core, 2GB of RAM, LTE 4G |
+|[DUO](https://code-ing.com/pixierepo/release/images/latest/PixieDLCoreImage.zip) | Dual Lite Core, 1GB of RAM, GSM 3G |
 
 If you have any questions, please contact @rhimmelbauer for support.
 
