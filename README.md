@@ -35,3 +35,12 @@ cd pixieboard-setup/scripts
 sudo sh quick-conf.sh
 ```
 
+# Change Log
+## 11-12-2018
+### Changed
+- Rule 'blacklist option' added in /etc/modprobe.d/blacklist.conf
+- New file 51-gsm.rules created under /etc/udev/rules.d/
+  This file is a udev rule that loads the 'option' kernel module to enable the ttyUSB ports for the gsm module.
+  The kernel module is loaded when the parameters in the file match with the events of the kernels
+  
+  
