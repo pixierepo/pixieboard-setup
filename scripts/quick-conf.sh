@@ -9,6 +9,8 @@ pacman -S --noconfirm ntp avahi nss-mdns yaourt
 #Config Time and locales
 groupadd pixiepro
 usermod -g pixiepro pixiepro
+iw reg set US
+export COUNTRY=US
 systemctl enable ntpd
 timedatectl set-ntp true
 hwclock --systohc
